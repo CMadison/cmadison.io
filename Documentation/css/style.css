@@ -1,0 +1,134 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,800,700,600,300);
+@import url(http://fonts.googleapis.com/css?family=Gentium+Basic:400,700,400italic,700italic);
+
+/* Space out content a bit */
+body {
+  background: #f2f2f2;
+  font-family: 'Open Sans', sans-serif;
+  color: #222;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+p {
+  line-height: 30px;
+  letter-spacing: 1px;
+  font-size: 14px;
+  color: #555;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+h1 {
+  font-size: 45px;
+}
+h2 {
+  font-size: 40px;
+}
+h3 {
+  font-size: 35px;
+}
+h4 {
+  font-size: 30px;
+}
+h5 {
+  font-size: 25px;
+}
+h6 {
+  font-size: 18px;
+}
+a {
+  color: #45ced0;
+    -webkit-transition: all .25s ease-out;
+    transition: all .25s ease-out;
+    text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+  color: #5afdff;
+}
+a:focus {
+  outline: 0;
+}
+ul.nop {
+  -webkit-padding-start: 0px;
+  -moz-padding-start:0px;
+}
+.sSection {
+  padding: 50px 0;
+}
+.pHeader {
+  background: #1c1c1c;
+  color: #fff;
+  text-align: left;
+  padding: 30px 30px!important;
+}
+.slogo img {
+  width: 80px;
+  height: 80px;
+}
+.slogo {
+  padding-bottom: 50px;
+}
+.itemInfo {
+   font-size: 15px;
+    color: #888; 
+}
+.itemInfo li {
+  list-style: none;
+  line-height: 25px;
+}
+
+.pContent {
+  padding: 20px 30px;
+  background: #fff;
+  margin-top: 25px;
+  -webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+padding-right: 70px;
+}
+.startBox {
+  background: #1c1c1c;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  padding: 15px;
+  position: fixed;
+  right: 25px;
+  bottom: 100px;
+}
+.table-nav-ul li {
+  list-style: none;
+}
+.table-nav-ul li.active a{
+  color: #45ced0;
+}
+.table-nav-ul li a {
+  color: #fff;
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: bold;
+}
+.footer {
+  background: #1c1c1c;
+  padding: 15px 0 10px 0;
+  text-transform: uppercase;
+}
+.footer p {
+  font-size: 13px;
+  line-height: 25px;
+}
+.footer-logo img {
+  width: 50px;
+  height: 50px;
+}
+.footer-logo {
+  float: left;
+  padding-right: 25px;
+}
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 960px;
+  }
