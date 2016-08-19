@@ -352,6 +352,7 @@ a:hover{
   background: rgb(50, 183, 183); 
 }
 
+
 /*--------------------------------------------------
   04. section Resume
 ---------------------------------------------------*/
@@ -921,6 +922,11 @@ ul.errorMessages li {
 	text-decoration: none;
 }
 
+/*Font Awesome Icon Styles in footer*/
+.pFooter i {
+  font-size: 24px;
+}
+
 
 /*--------------------------------------------------
 	09. Responsive
@@ -1057,6 +1063,13 @@ body{
 	margin-bottom: 30px;
 }
 
+#sectionAbout h1 {
+  text-align: center;
+}
+
+#sectionAbout span {
+  text-align: center;
+}
 /*Commenting this code out removes the purple timeline and circles for each job specifically on screen sizes 480px and smaller(iPhone 5). */
 
 /*.resume-right:before{
