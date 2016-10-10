@@ -465,9 +465,7 @@
         <h1>Get in touch</h1>
         <span>Contact</span>
       </div>
-      
       <div class="container">
-        
         <div class="contactForm row">
           <div class="col-md-6 col-sm-12 col-xs-12 contactLeft">
             <!--MESSAGE SENT SUCCESFULLY-->
@@ -482,13 +480,14 @@
                   <input name="email" type="text" id="email" placeholder="E-mail* :" size="30" value="" />
                 </div>
                 <div class="col-md-12 col-sm-12 col-xs-12">
-                  <input name="subject" type="text" id="subject" placeholder="Subject* :" size="30" value="" />
+                  <input name="_subject" type="text" id="subject" placeholder="Subject* :" size="30" value="" />
                 </div>
                 <div class="col-md-12 col-sm-12 col-xs-12">
                   <textarea name="comments" cols="40" rows="3" placeholder="Message* :" id="comments"></textarea>
                 </div>
+                <input type="text" name="_gotcha" style="display:none" />
+                <input type="hidden" name="_next" value="http://cmadison.io/" />
                 <input type="submit" class="submit" id="submit" value="Send message" />
-                
               </fieldset>
             </form>
             <!--END Main form-->
