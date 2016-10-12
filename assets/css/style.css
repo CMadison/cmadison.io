@@ -294,7 +294,7 @@ a:hover{
   font-weight: 400;
   font-family: "Poppins", sans-serif;
   letter-spacing: 1px;
-  color: #fff;
+  color: lightgray;
   margin-top: 0;
 }
 
@@ -311,7 +311,7 @@ a:hover{
 }
 .about-iconbox .icon {
   font-size: 50px;
-  color:#000;
+  color:lightgray;
 }
 .title-icon {
 /*  width: 150px;
@@ -319,7 +319,7 @@ a:hover{
 }
 .title-icon h1 {
   font-family: "Poppins", sans-serif;
-  color:#000;
+  color:lightgray;
   font-weight: 700;
   font-size: 50px;
   margin-top: 3px;
@@ -450,7 +450,7 @@ a:hover{
 }
 
 .icon a {
-  color: white;
+  color: lightgray;
 }
 
 .icon a:hover {
