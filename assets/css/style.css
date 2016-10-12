@@ -294,7 +294,7 @@ a:hover{
   font-weight: 400;
   font-family: "Poppins", sans-serif;
   letter-spacing: 1px;
-  color: lightgray;
+  color: #fff;
   margin-top: 0;
 }
 
@@ -311,7 +311,7 @@ a:hover{
 }
 .about-iconbox .icon {
   font-size: 50px;
-  color:lightgray;
+  color:#000;
 }
 .title-icon {
 /*  width: 150px;
@@ -450,6 +450,10 @@ a:hover{
 }
 
 .icon a {
+  color: lightgray;
+}
+
+.fa-file-code-o {
   color: lightgray;
 }
 
