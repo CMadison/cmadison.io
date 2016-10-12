@@ -306,8 +306,8 @@ a:hover{
 
 .about-iconbox {
   text-align: center;
-  padding-bottom: 10px;
-  padding-top: 10px;
+  /*padding-bottom: 10px;*/
+  /*padding-top: 10px;*/
 }
 .about-iconbox .icon {
   font-size: 50px;
@@ -450,7 +450,7 @@ a:hover{
 }
 
 .icon a {
-  color: black;
+  color: white;
 }
 
 .icon a:hover {
