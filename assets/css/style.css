@@ -3,11 +3,12 @@
 02. SECTION INTRO
 03. SECTION ABOUT
 04. SECTION RESUME
-05. SECTION PORTFOLIO (WORKS)
+08. SECTION PORTFOLIO (WORKS)
+05. SECTION SKILLS (NOT ACTIVE)
 06. SECTION CLIENTS
-07. SECTION JOURNAL
-08. SECTION CONTACT
-09. MEDIA QUERIES FOR RESPONSIVE DESIGN
+07. SECTION JOURNAL (NOT ACTIVE)
+09. SECTION CONTACT
+10. MEDIA QUERIES FOR RESPONSIVE DESIGN
 
 */
 
@@ -284,8 +285,9 @@ a:hover{
 .about-icons {
   width: 100%;
   position: relative;
-  top: 50%;
-  transform: translateY(-50%);
+  padding: 5% 8%;
+  /*top: 50%;*/
+  /*transform: translateY(-50%);*/
 }
 
 .about-iconbox h6 {
@@ -446,7 +448,8 @@ a:hover{
 #sectionHighlight {
   background-color: #a90067;
   width: 100%;
-  padding-top: 100px;
+  /*padding-top: 100px;*/
+  
 }
 
 .icon a {
@@ -462,7 +465,7 @@ a:hover{
 }
 
 /*--------------------------------------------------
-  04. section Skills
+  05. section Skills
 ---------------------------------------------------*/
 
 #sectionSkill{
@@ -493,7 +496,7 @@ a:hover{
 
 
 /*--------------------------------------------------
-	05. section Portfolio
+	06. section Portfolio
 ---------------------------------------------------*/
 
 #sectionPortfolio{
@@ -639,7 +642,7 @@ a:hover{
 
 
 /*--------------------------------------------------
-	06. section Clients
+	07. section Clients
 ---------------------------------------------------*/
 
 #sectionClients{
@@ -688,7 +691,7 @@ a:hover{
   color: #fff;
 }
 /*--------------------------------------------------
-	07. section Journal
+	08. section Journal
 ---------------------------------------------------*/
 
 #sectionJournal{
@@ -764,7 +767,7 @@ a:hover{
 }
 
 /*--------------------------------------------------
-	08. section Contact
+	09. section Contact
 ---------------------------------------------------*/
 
 /* ====GENERAL FORM STYLES==== */
@@ -954,7 +957,7 @@ ul.errorMessages li {
 
 
 /*--------------------------------------------------
-	09. Responsive
+	10. Responsive
 ---------------------------------------------------*/
 
 @media (max-width: 770px) {
@@ -994,7 +997,7 @@ body{
 }
 .title-icon h1 {
 	font-family: "Poppins", sans-serif;
-	color:#000;
+	color:lightgray;
 	font-weight: 700;
 	font-size: 50px;
 	margin-top: 3px;
