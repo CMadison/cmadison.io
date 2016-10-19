@@ -184,7 +184,7 @@ a:hover{
   	position: relative;
   	width: 100%;
   	min-height: 670px;
-  	background-image:url(../images/hero.jpg);
+  	background-image:url(../images/Chris3.jpg);
   	background-size: cover;
 }
 .textIntro {
@@ -195,11 +195,14 @@ a:hover{
 
 .hi h1 {
 	letter-spacing: 2px;
-	font-size: 150px;
+	/*font-size: 150px;*/
+  font-size: 75px;
 	font-weight: 700;
 	color: #a90067;
 	font-family: "Poppins", sans-serif;
 	margin-bottom: 15px;
+  text-align: left;
+  margin-left: 1%;
 }
 .hi span{
 	font-size: 16px;
@@ -209,6 +212,7 @@ a:hover{
 	color: #fafafa;
 	margin-bottom: 26px;
 	text-transform: uppercase;
+  margin-left: 1em;
 }
 .hi img{
 	width: 30px;
