@@ -217,7 +217,7 @@ a:hover{
 .hi img{
 	width: 30px;
 	height: 30px;
-	margin-top: 130px;
+	margin-top: 220px;
 	animation-name: bounce;
   animation: bounce 3s infinite;
   transition: all 0.3s ease-in-out;
@@ -991,6 +991,10 @@ body{
 .hi h1{
 	font-size: 100px;
 }
+
+.hi img {
+  margin-top: 70px;
+}
 .skills{
 	padding-left: 0px;
 }
@@ -1079,9 +1083,13 @@ body{
 .hi h1{
 	font-size: 60px;
 	letter-spacing: 1px;
+  margin-left: 2%;
 }
 .hi span{
 	font-size: 14px;
+}
+.hi img {
+  margin-top: 150px;
 }
 .sectionTitle h1{
 	font-size: 30px;
