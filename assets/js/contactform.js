@@ -1,31 +1,31 @@
-jQuery(document).ready(function() {
+// jQuery(document).ready(function() {
 
-	$('#contactform').submit(function() {
+// 	$('#contactform').submit(function() {
 
-		var action = $(this).attr('action');
-		var values = $(this).serialize();
+// 		var action = $(this).attr('action');
+// // 		var values = $(this).serialize();
 
-		$('#submit').attr('disabled', 'disabled');
+// 		$('#submit').attr('disabled', 'disabled');
 
-		$("#message").slideUp(0, function() {
+// 		$("#message").slideUp(0, function() {
 
-			$('#message').hide();
+// 			$('#message').hide();
 
-			$.post(action, values, function(data) {
-				$('#message').html(data);
-				$('#message').slideDown('slow');
-				$('#submit').removeAttr('disabled');
-				if(data.match('success') != null) $('#contactform')[0].reset();
+// 			$.post(action, values, function(data) {
+// 				$('#message').html(data);
+// 				$('#message').slideDown('slow');
+// 				$('#submit').removeAttr('disabled');
+// 				if(data.match('success') != null) $('#contactform')[0].reset();
 
-			});
+// 			});
 
-		});
+// 		});
 
-		return false;
+// 		return false;
 
-	});
+// 	});
 
-});
+// });
 	
 	// $('#contactform').submit(function() {
 
