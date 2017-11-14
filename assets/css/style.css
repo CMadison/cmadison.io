@@ -215,14 +215,14 @@ a:hover {
 #sectionIntro {
     position: relative;
     width: 100%;
-    min-height: 670px;
+    min-height: 820px;
     background-image: url(../images/Chris3.jpg);
     background-size: cover;
 }
 
 .textIntro {
     text-align: center;
-    padding-top: 250px;
+    padding-top: 360px;
     padding-bottom: 44px;
 }
 
@@ -252,7 +252,7 @@ a:hover {
 .hi img {
     width: 30px;
     height: 30px;
-    margin-top: 220px;
+    margin-top: 260px;
     animation-name: bounce;
     animation: bounce 3s infinite;
     transition: all 0.3s ease-in-out;
