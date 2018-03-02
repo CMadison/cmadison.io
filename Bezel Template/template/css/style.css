@@ -362,6 +362,10 @@ section.page-title .bp-desktop({
   background-color: #1f1f1f;
   color: #fff;
 }
+.dark-grey-bg {
+  background-color: #1f1f1f;
+  color: #fff;
+}
 .dark-bg .title > hr {
   border-color: #fff;
 }
@@ -5023,14 +5027,14 @@ section.section-skewed.section-bordered #home-slider:after {
 }
 .post-preview .post-category a {
   text-transform: uppercase;
-  color: #1f1f1f;
+  color: #fff;
   font-weight: 500;
   font-family: 'Poppins', sans-serif;
   font-size: 12px;
   letter-spacing: 0.05em;
 }
 .post-preview .post-title a {
-  color: #1f1f1f;
+  color: #fff;
 }
 .post-preview .post-body {
   padding: 15px 0;
