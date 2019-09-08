@@ -49,7 +49,10 @@ a:hover {
     width: 100%;
     z-index: 9999;
 }
-
+.owl-carousel {
+-ms-touch-action: pan-y;
+touch-action: pan-y;
+}
 #loader h3 {
     font-family: "Poppins", sans-serif;
     font-size: 14px;
